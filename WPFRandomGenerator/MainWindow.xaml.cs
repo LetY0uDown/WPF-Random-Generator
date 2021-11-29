@@ -29,7 +29,7 @@ public partial class MainWindow : Window
             if (minimum < maximum)
                 textNumber.Text = random.Next(minimum, maximum).ToString();
         }
-        catch(Exception)
+        catch (Exception)
         {
             textNumber.Text = "Wrong values!";
         }
